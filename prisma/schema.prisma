@@ -54,6 +54,7 @@ model Part {
   manufacturerCode String?
   name             String
   description      String?
+  brand            String?
   location         String?
   costPrice        Decimal  @db.Decimal(10, 2)
   salePrice        Decimal  @db.Decimal(10, 2)
